@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="77" tests="5" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="5" failures="0" errors="0" time="77" timestamp="2018-03-30 18:08:13" hostname="RiskyCarter - RISKY.mshome.net" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\RiskyCarter\\Documents\\ADV Shoftware\\GitHub\\lab234-lab10-client v2\\Reports\\Test Suite 1\\20180330_180812"/>
+         <property name="logFiles" value="C:\\Users\\RiskyCarter\\Documents\\ADV Shoftware\\GitHub\\lab234-lab10-client v2\\Reports\\Test Suite 1\\20180330_180812\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="RiskyCarter - RISKY.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="172.21.41.49"/>
+         <property name="sessionId" value="dcb42b0aad514eb7d9b072ded9ee5a4c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase1 v1" classname="Test Cases/TestCase1 v1" status="PASSED">
+         <system-out><![CDATA[2018-03-30 18:08:14 - [TEST_CASE][PASSED] - Test Cases/TestCase1 v1: Test Cases/TestCase1 v1
+
+2018-03-30 18:08:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-30 18:08:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-30 18:08:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.187.89.205:8081/' successfully
+
+2018-03-30 18:08:27 - [MESSAGE][PASSED] - Navigate to 'http://54.187.89.205:8081/' successfully
+
+2018-03-30 18:08:27 - [TEST_STEP][PASSED] - setText: Text '30' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2018-03-30 18:08:27 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2018-03-30 18:08:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2018-03-30 18:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2018-03-30 18:08:27 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Page_Lab 234/answer' located by 'By.xpath: //*[@id = 'answer']' is not present after '30' second(s)
+
+2018-03-30 18:08:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-30 18:08:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Lab 234/answer' located by 'By.xpath: //*[@id = 'answer']' is not present after '30' second(s)
+
+2018-03-30 18:08:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2018-03-30 18:08:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2018-03-30 18:08:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-30 18:08:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase1 v2" classname="Test Cases/TestCase1 v2" status="PASSED">
+         <system-out><![CDATA[2018-03-30 18:08:30 - [TEST_CASE][PASSED] - Test Cases/TestCase1 v2: Test Cases/TestCase1 v2
+
+2018-03-30 18:08:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-30 18:08:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-30 18:08:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.187.89.205:8081/' successfully
+
+2018-03-30 18:08:44 - [MESSAGE][PASSED] - Navigate to 'http://54.187.89.205:8081/' successfully
+
+2018-03-30 18:08:44 - [TEST_STEP][PASSED] - setText: Text '90' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2018-03-30 18:08:44 - [MESSAGE][PASSED] - Text '90' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2018-03-30 18:08:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2018-03-30 18:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2018-03-30 18:08:44 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Page_Lab 234/answer' located by 'By.xpath: //*[@id = 'answer']' is not present after '30' second(s)
+
+2018-03-30 18:08:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-30 18:08:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Lab 234/answer' located by 'By.xpath: //*[@id = 'answer']' is not present after '30' second(s)
+
+2018-03-30 18:08:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2018-03-30 18:08:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2018-03-30 18:08:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-30 18:08:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase1 v3" classname="Test Cases/TestCase1 v3" status="PASSED">
+         <system-out><![CDATA[2018-03-30 18:08:47 - [TEST_CASE][PASSED] - Test Cases/TestCase1 v3: Test Cases/TestCase1 v3
+
+2018-03-30 18:08:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-30 18:08:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-30 18:08:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.187.89.205:8081/' successfully
+
+2018-03-30 18:08:59 - [MESSAGE][PASSED] - Navigate to 'http://54.187.89.205:8081/' successfully
+
+2018-03-30 18:08:59 - [TEST_STEP][PASSED] - setText: Text '79' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2018-03-30 18:08:59 - [MESSAGE][PASSED] - Text '79' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2018-03-30 18:08:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2018-03-30 18:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2018-03-30 18:08:59 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Page_Lab 234/answer' located by 'By.xpath: //*[@id = 'answer']' is not present after '30' second(s)
+
+2018-03-30 18:08:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-30 18:08:59 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Lab 234/answer' located by 'By.xpath: //*[@id = 'answer']' is not present after '30' second(s)
+
+2018-03-30 18:08:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2018-03-30 18:09:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2018-03-30 18:09:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-30 18:09:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase1 v4" classname="Test Cases/TestCase1 v4" status="PASSED">
+         <system-out><![CDATA[2018-03-30 18:09:01 - [TEST_CASE][PASSED] - Test Cases/TestCase1 v4: Test Cases/TestCase1 v4
+
+2018-03-30 18:09:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-30 18:09:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-30 18:09:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.187.89.205:8081/' successfully
+
+2018-03-30 18:09:12 - [MESSAGE][PASSED] - Navigate to 'http://54.187.89.205:8081/' successfully
+
+2018-03-30 18:09:12 - [TEST_STEP][PASSED] - setText: Text '60' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2018-03-30 18:09:12 - [MESSAGE][PASSED] - Text '60' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2018-03-30 18:09:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2018-03-30 18:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2018-03-30 18:09:13 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Page_Lab 234/answer' located by 'By.xpath: //*[@id = 'answer']' is not present after '30' second(s)
+
+2018-03-30 18:09:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-30 18:09:13 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Lab 234/answer' located by 'By.xpath: //*[@id = 'answer']' is not present after '30' second(s)
+
+2018-03-30 18:09:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2018-03-30 18:09:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2018-03-30 18:09:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-30 18:09:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase1 v5" classname="Test Cases/TestCase1 v5" status="PASSED">
+         <system-out><![CDATA[2018-03-30 18:09:15 - [TEST_CASE][PASSED] - Test Cases/TestCase1 v5: Test Cases/TestCase1 v5
+
+2018-03-30 18:09:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-30 18:09:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-30 18:09:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.187.89.205:8081/' successfully
+
+2018-03-30 18:09:29 - [MESSAGE][PASSED] - Navigate to 'http://54.187.89.205:8081/' successfully
+
+2018-03-30 18:09:29 - [TEST_STEP][PASSED] - setText: Text '45' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2018-03-30 18:09:29 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2018-03-30 18:09:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2018-03-30 18:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2018-03-30 18:09:29 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Page_Lab 234/answer' located by 'By.xpath: //*[@id = 'answer']' is not present after '30' second(s)
+
+2018-03-30 18:09:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-30 18:09:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Lab 234/answer' located by 'By.xpath: //*[@id = 'answer']' is not present after '30' second(s)
+
+2018-03-30 18:09:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2018-03-30 18:09:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2018-03-30 18:09:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-30 18:09:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-30 18:08:13 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/TestCase1 v5]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
